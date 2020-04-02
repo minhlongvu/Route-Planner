@@ -49,10 +49,10 @@ RM = "S:\Clion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\alber\CLionProjects\untitled
+CMAKE_SOURCE_DIR = C:\Users\alber\CLionProjects\Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\alber\CLionProjects\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\alber\CLionProjects\Pathfinder\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alber\CLionProjects\untitled\cmake-build-debug\CMakeFiles C:\Users\alber\CLionProjects\untitled\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alber\CLionProjects\Pathfinder\cmake-build-debug\CMakeFiles C:\Users\alber\CLionProjects\Pathfinder\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alber\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alber\CLionProjects\Pathfinder\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,17 +112,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named Pathfinder
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) untitled
-.PHONY : untitled
+Pathfinder: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Pathfinder
+.PHONY : Pathfinder
 
 # fast build rule for target.
-untitled\fast:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\build
-.PHONY : untitled\fast
+Pathfinder\fast:
+	$(MAKE) -f CMakeFiles\Pathfinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pathfinder.dir\build
+.PHONY : Pathfinder\fast
 
 main.obj: main.cpp.obj
 
@@ -130,7 +130,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\main.cpp.obj
+	$(MAKE) -f CMakeFiles\Pathfinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pathfinder.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -139,7 +139,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\main.cpp.i
+	$(MAKE) -f CMakeFiles\Pathfinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pathfinder.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -148,7 +148,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\main.cpp.s
+	$(MAKE) -f CMakeFiles\Pathfinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pathfinder.dir\main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,8 +157,8 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Pathfinder
 	@echo ... edit_cache
-	@echo ... untitled
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
