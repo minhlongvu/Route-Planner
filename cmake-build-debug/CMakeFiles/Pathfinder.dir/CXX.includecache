@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/alber/CLionProjects/Pathfinder/main.cpp
+algorithm
+-
+fstream
+-
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+
