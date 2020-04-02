@@ -11,7 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c13d107-ef81-4ec6-b84f-35d91c580ee0" name="Default Changelist" comment="" />
+    <list default="true" id="9c13d107-ef81-4ec6-b84f-35d91c580ee0" name="Default Changelist" comment="-Changed Project Name&#10;-Added A* Search with Heuristic function for neighbors&#10;-Added CellSort function&#10;-Added ExpandNeighbors function&#10;-Added CheckValidCell function for neighbors&#10;-Added AddToOpen function for neighbors">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Pathfinder.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Pathfinder.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Pathfinder.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Pathfinder.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +63,7 @@
       <workItem from="1585744538327" duration="41000" />
       <workItem from="1585846186829" duration="617000" />
       <workItem from="1585851480860" duration="735000" />
-      <workItem from="1585856518744" duration="280000" />
+      <workItem from="1585856518744" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="-Changed Project Name&#10;-Added A* Search with Heuristic function for neighbors&#10;-Added CellSort function&#10;-Added ExpandNeighbors function&#10;-Added CheckValidCell function for neighbors&#10;-Added AddToOpen function for neighbors">
       <created>1585856761203</created>
@@ -93,22 +101,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585852196101" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585852216482">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585857373780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585852216482" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585852216482">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585857373780" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585857373780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585852216482" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585852216482">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585857373780" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585857373779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585852216482" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585852216482">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585857373779" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585857373780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585852216482" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585857373780" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1585856763063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

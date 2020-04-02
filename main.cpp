@@ -191,6 +191,7 @@ void PrintBoard(const vector<vector<State>> board) {
         }
         cout << "\n";
     }
+    cout << "S is start, F is finish, X is obstacle, 0 is unused path, 1 is used path" << "\n";
 }
 
 int main() {
