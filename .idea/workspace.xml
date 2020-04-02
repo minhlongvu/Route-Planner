@@ -13,12 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c13d107-ef81-4ec6-b84f-35d91c580ee0" name="Default Changelist" comment="-Changed Project Name&#10;-Added A* Search with Heuristic function for neighbors&#10;-Added CellSort function&#10;-Added ExpandNeighbors function&#10;-Added CheckValidCell function for neighbors&#10;-Added AddToOpen function for neighbors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Pathfinder.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Pathfinder.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Pathfinder.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Pathfinder.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pathfinder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
       <workItem from="1585744538327" duration="41000" />
       <workItem from="1585846186829" duration="617000" />
       <workItem from="1585851480860" duration="735000" />
-      <workItem from="1585856518744" duration="869000" />
+      <workItem from="1585856518744" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="-Changed Project Name&#10;-Added A* Search with Heuristic function for neighbors&#10;-Added CellSort function&#10;-Added ExpandNeighbors function&#10;-Added CheckValidCell function for neighbors&#10;-Added AddToOpen function for neighbors">
       <created>1585856761203</created>
