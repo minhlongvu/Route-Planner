@@ -1,5 +1,5 @@
 # Route-Planner
-Using the OpenStreetMap API and A* Search
+Using A* Search and its heuristic function
 
 Finds the shortest path from a start point to an endpoint and visualizes it. <br>
 In the outputted grid, S indicates start, F indicates finish, X indicates obstacles, 0 represents empty space, and 1 represents taken path.
